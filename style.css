@@ -1,0 +1,25 @@
+:root {
+  --ff-mono: "Lucida Console", monospace;
+}
+
+form {
+  display: grid;
+  grid-template-columns: max-content max-content;
+}
+
+form > * {
+  width: max-content;
+}
+
+form > *:nth-child(3) {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+form > input {
+  text-align: right;
+}
+
+.output {
+  font-family: var(--ff-mono);
+}
